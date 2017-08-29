@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amaysim</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <!-- TODO - Add partial here for bootstrap navbar -->
+    <%= render 'layouts/container_zero'%>
+    <%= render 'layouts/nav'%>
+    <%= render 'layouts/container_one'%>
+    <%= render 'layouts/container_two'%>
+    <%= yield %>
+  </body>
+</html>
