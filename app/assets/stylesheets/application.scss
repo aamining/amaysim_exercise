@@ -32,7 +32,7 @@
   color: white;
 
 }
-.big-purplr{min-height: 100px;
+.big-purplr{min-height:inherit;
 }
 .bg-white {
   background-color: #fff;
@@ -47,3 +47,5 @@
 
 .title {font-size: 40px
 }
+
+.btn {background-color:#f50; border-radius: 20%; border-color: #f50}
