@@ -15,31 +15,30 @@
  */
  @import "bootstrap";
 
- .sm-white {height:50px}
+.sm-white {height:50px}
 
 .navbar-light {background-color: #f50}
 .navbar {direction: rtl; color: white}
+
 .bg-purple {
   background-color: #510063;
 }
 
 .bg-purple h3 {
   color: white
-
 }
 
 .bg-purple h4 {
   color: white;
-
 }
+
 .big-purplr{min-height:inherit;
 }
-.bg-white {
+.bg-whiteone {
   background-color: #fff;
 }
-
-.bg-white {
-  color: #510063
+.bg-whitetwo {
+  background-color: #fff;
 }
 
 .contracts { font-size: 14px
@@ -48,4 +47,4 @@
 .title {font-size: 40px
 }
 
-.btn {background-color:#f50; border-radius: 20%; border-color: #f50}
+.btn {background-color:#f50; border-radius: 20%; border-color: #f50;}
